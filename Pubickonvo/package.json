@@ -1,0 +1,21 @@
+{
+  "name": "pubickonvo",
+  "version": "1.0.0",
+  "description": "chat en tiempo real con multiples salas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Mario Silva",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mssql": "^9.0.1",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
